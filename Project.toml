@@ -1,4 +1,5 @@
 name = "ThermoFluids"
+uuid = "f6abbb46-7299-11ee-b962-0242ac120002"
 authors = ["Robert Walters"]
 version = "0.1.0"
 
