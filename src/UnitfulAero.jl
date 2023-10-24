@@ -1,5 +1,5 @@
 module UnitfulAero
-    using Unitful; 
+    using Unitful
 	@unit nmi "nautical mile" NautMile 1852u"m" false;
 	# https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication330e2008.pdf 
 	Unitful.register(UnitfulAero);
@@ -9,3 +9,4 @@ module UnitfulAero
 	@unit ton    "ton"   Ton         200u"btu/minute" 			false;
 
 end
+

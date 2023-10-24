@@ -2,5 +2,5 @@ using UnitfulAero
 using Test
 
 @testset "UnitfulAero.jl" begin
-    # Write your tests here.
+    @test 1u"kt" == 1852u"m/hr"
 end
